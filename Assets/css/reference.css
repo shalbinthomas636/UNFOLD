@@ -1,0 +1,25 @@
+/* REFERENCE */
+
+.reference-card {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, var(--card-2), var(--card));
+    border: 1px solid var(--line);
+}
+.reference-card h2 { margin-bottom: 26px; }
+.ref-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 30px;
+}
+.ref-grid strong { font-size: 1.05rem; }
+.ref-grid p { color: var(--muted); font-size: 0.92rem; margin-top: 8px; }
+.ref-contact { display: grid; gap: 10px; align-content: start; }
+.ref-contact a {
+    color: #c7cbff;
+    font-size: 0.92rem;
+    word-break: break-all;
+}
+.ref-contact a:hover { color: var(--text); }

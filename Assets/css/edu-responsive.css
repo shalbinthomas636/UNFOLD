@@ -1,0 +1,9 @@
+/* EDUCATION RESPONSIVE */
+
+@media (max-width: 640px) {
+    .edu-card { flex-direction: column; gap: 16px; padding: 22px; }
+    .timeline::before { display: none; }
+    .edu-marker { width: 52px; height: 52px; font-size: 0.95rem; }
+    .ref-grid { grid-template-columns: 1fr; }
+    .reference-card { padding: 28px 22px; }
+}

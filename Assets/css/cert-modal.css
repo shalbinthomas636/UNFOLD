@@ -1,0 +1,21 @@
+/* CERTIFICATE VIEWER */
+
+.cert-preview {
+    display: none;
+    margin-top: 24px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fff;
+}
+.cert-preview.open { display: block; }
+.cert-preview img {
+    width: 100%;
+    height: auto;
+}
+.modal-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 26px;
+}
