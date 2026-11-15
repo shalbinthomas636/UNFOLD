@@ -9,9 +9,13 @@
     background: #fff;
 }
 .cert-preview.open { display: block; }
-.cert-preview img {
+.cert-preview iframe {
+    display: block;
     width: 100%;
-    height: auto;
+    aspect-ratio: 1.414 / 1;
+    min-height: 320px;
+    border: 0;
+    background: #fff;
 }
 .modal-actions {
     display: flex;
